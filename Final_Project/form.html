@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Trip</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@500&display=swap" rel="stylesheet">
+    
+
+
+
+</head>
+<body class="wrapper">
+    <div class="container">
+        <form id="registration" action="index.html" method="POST">
+            
+                
+                <H1 class="main_text">რეგისტრაცია</H1>
+            
+            
+            
+                <div class="form_wrapper">
+                    <img class="icon" src="img/user1.svg" alt="icon">
+                    
+                    
+                    <input class="form" type="text" name="username" placeholder="სახელი...">
+                    <div class="error-div" id="error_username"></div>
+                </div>
+
+                <div class="form_wrapper">
+                    <img class="icon" src="img/mail-5.svg" alt="icon">
+
+                    <input class="form" type="email" name="email" placeholder="ელ.ფოსტა..." required>
+                    <div class="error-div" id="error_email"></div>
+                </div>
+
+                <div class="form_wrapper">
+                    <img class="icon" src="img/antique-key.svg" alt="pas_icon">
+
+                    <input class="form"type="password" name="password" placeholder="შეყვანეთ პაროლი...">
+                    <div class="error-div" id="error_password"></div>
+                </div>
+                <div class="form_wrapper">
+                    <img class="icon" src="img/antique-key.svg" alt="pas_icon">
+
+                    <input class="form" type="password" name="password2" placeholder="გაიმეორეთ პაროლი...">
+                    <div class="error-div" id="error_password2"></div>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" name="agree">
+                    <label>I agree</label>
+                    <div class="error-div" id="error_agree"></div>
+                </div>
+                
+                <button class="button  form" type="submit">რეგისტრაცია</button>
+
+            <div>
+                <p style="display: inline-block;">უკვე ხართ რეგისტრირებული?</p>
+                <a class="register" href="">შესვლა</a>
+            </div>
+        </form>
+
+<!-- animation box -->
+		<div class="box-absolute"></div>
+			
+    </div>
+
+    <script src="forms.js"></script>
+</body>
+</html>

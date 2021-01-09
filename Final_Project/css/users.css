@@ -1,0 +1,30 @@
+#momxmareblebi {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: center;
+    
+}
+.momxmarebeli {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid  gray;
+    margin-right: 10px;
+    box-shadow: 0 5px 20px;
+   
+}
+p {
+    font-family: 'Muli', sans-serif;
+}
+h3 {
+    margin: 10px 0;
+    font-family: 'Muli', sans-serif;
+    
+}
+.satauri {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 200px;
+    
+    text-align: center;
+}
